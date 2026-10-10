@@ -1,0 +1,33 @@
+{
+    "name": "surlinio/easycaptchas",
+    "description": "A lightweight, self-hosted and privacy-friendly CAPTCHA solution for PHP forms.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["captcha", "php", "spam", "privacy", "forms"],
+    "homepage": "https://easycaptchas.nl",
+    "support": {
+        "issues": "https://github.com/Surlinio/easycaptchas/issues",
+        "source": "https://github.com/Surlinio/easycaptchas"
+    },
+    "authors": [
+        {
+            "name": "Surlinio B.V.",
+            "homepage": "https://surlinio.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-gd": "*",
+        "ext-hash": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Surlinio\\EasyCaptchas\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "php tests/run.php"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
